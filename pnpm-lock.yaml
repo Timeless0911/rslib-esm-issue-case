@@ -20,6 +20,15 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
 
+  packages/export-star-as:
+    devDependencies:
+      '@rslib/core':
+        specifier: ^0.9.2
+        version: 0.9.2(typescript@5.8.3)
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
+
   packages/external-type:
     devDependencies:
       '@rslib/core':
@@ -28,9 +37,6 @@ importers:
       '@sinonjs/fake-timers':
         specifier: ^14.0.0
         version: 14.0.0
-      tsup:
-        specifier: ^8.5.0
-        version: 8.5.0(jiti@2.4.2)(typescript@5.8.3)
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
