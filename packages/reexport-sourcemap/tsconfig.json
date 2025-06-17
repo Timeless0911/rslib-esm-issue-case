@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "baseUrl": "./",
+    "lib": ["ES2021"],
+    "module": "ESNext",
+    "strict": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "bundler",
+    "useDefineForClassFields": true,
+    "outDir": "dist-tsc",
+    "sourceMap": true
+  },
+  "include": ["src"]
+}

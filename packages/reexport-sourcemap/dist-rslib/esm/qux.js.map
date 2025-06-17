@@ -1,0 +1,1 @@
+{"version":3,"file":"qux.js","sources":["webpack://esm-sourcemap/./src/qux.ts"],"sourcesContent":["import { foo } from \"./foo\";\n\nexport const qux = foo + \"qux\";\n"],"names":["qux","foo"],"mappings":";AAEO,MAAMA,MAAMC,MAAM"}

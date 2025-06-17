@@ -20,7 +20,7 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
 
-  packages/esm-empty-file:
+  packages/empty-file:
     devDependencies:
       '@rslib/core':
         specifier: ^0.9.2
@@ -49,6 +49,15 @@ importers:
       '@sinonjs/fake-timers':
         specifier: ^14.0.0
         version: 14.0.0
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
+
+  packages/reexport-sourcemap:
+    devDependencies:
+      '@rslib/core':
+        specifier: ^0.9.2
+        version: 0.9.2(typescript@5.8.3)
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
