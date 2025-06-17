@@ -1,0 +1,20 @@
+{
+  "name": "dynamic-import",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build:rslib": "rslib build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "devDependencies": {
+    "@sinonjs/fake-timers": "^14.0.0",
+    "@rslib/core": "^0.9.2",
+    "typescript": "^5.8.3",
+    "tsup": "^8.5.0"
+  }
+}
