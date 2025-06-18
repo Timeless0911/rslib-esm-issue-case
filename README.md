@@ -7,3 +7,4 @@ Record some ESM issues:
 - [ ] empty-file
 - [ ] reexport-sourcemap
 - [ ] require-cache
+- [ ] module-variables
