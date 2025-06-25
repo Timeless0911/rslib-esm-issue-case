@@ -8,3 +8,4 @@ Record some ESM issues:
 - [ ] reexport-sourcemap
 - [ ] require-cache
 - [ ] module-variables
+- [ ] export-star-random

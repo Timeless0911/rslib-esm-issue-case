@@ -1,1 +1,1 @@
-{"version":3,"file":"foo.js","sources":["webpack://esm-sourcemap/./src/foo.ts"],"sourcesContent":["export const foo = \"foo\";\n"],"names":["foo"],"mappings":"AAAO,MAAMA,MAAM"}
+{"version":3,"file":"foo.js","sources":["webpack://reexport-sourcemap/./src/foo.ts"],"sourcesContent":["export const foo = \"foo\";\n"],"names":["foo"],"mappings":"AAAO,MAAMA,MAAM"}
