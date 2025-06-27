@@ -6,6 +6,6 @@ Record some ESM issues:
 - [ ] export-star-as
 - [ ] empty-file
 - [ ] reexport-sourcemap
-- [ ] require-cache
+- [x] require-cache
 - [ ] module-variables
 - [ ] export-star-random
