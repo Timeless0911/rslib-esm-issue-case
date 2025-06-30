@@ -9,3 +9,4 @@ Record some ESM issues:
 - [x] require-cache
 - [ ] module-variables
 - [ ] export-star-random
+- [ ] tla

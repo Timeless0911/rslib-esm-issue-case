@@ -110,6 +110,21 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
 
+  packages/tla:
+    devDependencies:
+      '@rslib/core':
+        specifier: ^0.10.2
+        version: 0.10.2(typescript@5.8.3)
+      '@types/node':
+        specifier: ^24.0.3
+        version: 24.0.3
+      esbuild:
+        specifier: ^0.25.5
+        version: 0.25.5
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
+
 packages:
 
   '@ast-grep/napi-darwin-arm64@0.37.0':
