@@ -11,3 +11,4 @@ Record some ESM issues:
 - [ ] module-variables
 - [ ] export-star-random
 - [ ] tla
+- [ ] eval

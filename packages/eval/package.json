@@ -1,0 +1,19 @@
+{
+  "name": "eval",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build:rslib": "rslib build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "devDependencies": {
+    "@rslib/core": "^0.10.5",
+    "@types/node": "^24.0.3",
+    "typescript": "^5.8.3"
+  }
+}
