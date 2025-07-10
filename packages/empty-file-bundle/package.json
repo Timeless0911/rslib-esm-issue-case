@@ -1,0 +1,17 @@
+{
+  "name": "empty-file-bundle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:rslib": "rslib build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "devDependencies": {
+    "@rslib/core": "^0.10.5",
+    "typescript": "^5.8.3"
+  }
+}

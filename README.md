@@ -5,6 +5,7 @@ Record some ESM issues:
 - [ ] external-type
 - [ ] export-star-as
 - [ ] empty-file
+- [ ] empty-file-bundle
 - [ ] reexport-sourcemap
 - [x] require-cache
 - [ ] module-variables
