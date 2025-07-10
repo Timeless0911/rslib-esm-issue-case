@@ -12,8 +12,8 @@
   "license": "ISC",
   "packageManager": "pnpm@10.10.0",
   "devDependencies": {
+    "@rslib/core": "^0.10.5",
     "@sinonjs/fake-timers": "^14.0.0",
-    "@rslib/core": "^0.10.2",
     "typescript": "^5.8.3"
   }
 }
