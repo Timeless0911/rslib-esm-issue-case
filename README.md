@@ -1,14 +1,14 @@
 Record some ESM issues:
 
-- [ ] shared-module
-- [ ] dynamic-import
+- [x] shared-module
+- [x] dynamic-import interop can be optimized
 - [ ] external-type
 - [ ] export-star-as
 - [ ] empty-file
-- [ ] empty-file-bundle
+- [x] empty-file-bundle
 - [ ] reexport-sourcemap
 - [x] require-cache
 - [ ] module-variables
-- [ ] export-star-random
+- [x] export-star-random
 - [ ] tla
-- [ ] eval
+- [x] eval

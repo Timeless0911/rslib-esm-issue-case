@@ -1,17 +1,6 @@
-var __webpack_modules__ = {
-    "./src/foo.ts": function() {}
-};
-var __webpack_module_cache__ = {};
-function __webpack_require__(moduleId) {
-    var cachedModule = __webpack_module_cache__[moduleId];
-    if (void 0 !== cachedModule) return cachedModule.exports;
-    var module = __webpack_module_cache__[moduleId] = {
-        exports: {}
-    };
-    __webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-    return module.exports;
-}
-var foo = __webpack_require__("./src/foo.ts");
-console.log("foo: ", foo);
+import { __webpack_require__ } from "./runtime.js";
+var foo_namespaceObject = {};
+__webpack_require__.r(foo_namespaceObject);
+console.log("foo: ", foo_namespaceObject);
 const a = 1;
 export { a };

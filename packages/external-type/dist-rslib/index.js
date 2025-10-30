@@ -1,7 +1,8 @@
 import * as __WEBPACK_EXTERNAL_MODULE_timers__ from "timers";
 import * as __WEBPACK_EXTERNAL_MODULE_timers_promises_da6d1ba4__ from "timers/promises";
 import * as __WEBPACK_EXTERNAL_MODULE_util__ from "util";
-var __webpack_modules__ = {
+import { __webpack_require__ } from "./runtime.js";
+__webpack_require__.add({
     "../../node_modules/.pnpm/@sinonjs+commons@3.0.1/node_modules/@sinonjs/commons/lib/called-in-order.js": function(module, __unused_webpack_exports, __webpack_require__) {
         var every = __webpack_require__("../../node_modules/.pnpm/@sinonjs+commons@3.0.1/node_modules/@sinonjs/commons/lib/prototypes/array.js").every;
         function hasCallsLeft(callMap, spy) {
@@ -1312,18 +1313,8 @@ var __webpack_modules__ = {
     util: function(module) {
         module.exports = __WEBPACK_EXTERNAL_MODULE_util__;
     }
-};
-var __webpack_module_cache__ = {};
-function __webpack_require__(moduleId) {
-    var cachedModule = __webpack_module_cache__[moduleId];
-    if (void 0 !== cachedModule) return cachedModule.exports;
-    var module = __webpack_module_cache__[moduleId] = {
-        exports: {}
-    };
-    __webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-    return module.exports;
-}
-var fake_timers_src = __webpack_require__("../../node_modules/.pnpm/@sinonjs+fake-timers@14.0.0/node_modules/@sinonjs/fake-timers/src/fake-timers-src.js");
+});
+const fake_timers_src = __webpack_require__("../../node_modules/.pnpm/@sinonjs+fake-timers@14.0.0/node_modules/@sinonjs/fake-timers/src/fake-timers-src.js");
 async function main() {
     console.log(fake_timers_src.withGlobal);
 }

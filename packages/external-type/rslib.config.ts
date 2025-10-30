@@ -8,6 +8,9 @@ export default defineConfig({
           root: "./dist-rslib",
         },
       },
+      experiments: {
+        advancedEsm: true,
+      },
     },
   ],
 });
