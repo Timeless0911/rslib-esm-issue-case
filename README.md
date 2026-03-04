@@ -10,5 +10,5 @@ Record some ESM issues:
 - [x] require-cache
 - [ ] module-variables
 - [x] export-star-random (bundleless)
-- [ ] tla
+- [x] tla
 - [x] eval
